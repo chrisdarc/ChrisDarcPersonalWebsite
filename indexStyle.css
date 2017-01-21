@@ -10,21 +10,10 @@
 	flex-wrap: wrap;
 }
 
-.column{
-	/*first and second are how much grow and shrink relative to other columns, last number is initial width.
-	Check the docs on the flex property*/
-	flex: 1 0 33%;
-	box-sizing: border-box;
-	padding: 10px;
-}
-
-.columnHeading{
-	font-size: 25px;
-	text-align: center;
-}
-
-.columnBody{
+#blurb{
 	font-size: 18px;
-	text-align: left;
+    text-align: left;
+    padding: 10px;
 }
+
 
