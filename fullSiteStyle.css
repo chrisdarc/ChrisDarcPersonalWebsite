@@ -22,8 +22,8 @@ p{
 
 #navBar li{
 	display: inline-block;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 }
 
 #navBar li a{
