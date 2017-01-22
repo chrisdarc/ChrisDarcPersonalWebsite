@@ -1,8 +1,13 @@
-.selfImageClass{
-	display: block;
-	margin: auto;
-	width: 50%;
-	height: auto;
+#selfImage{
+    display: block;
+    margin: auto;
+    height: auto;
+    text-align: center;
+}
+
+#selfImage a img{
+    width: 50%;
+    height:auto;
 }
 
 #columnContainer{
@@ -29,9 +34,8 @@
     text-align: center;
 }
 
-#aboutMeLinks a{
-    color: #000000;
-    text-decoration: none;
+.aboutMeButton:hover{
+    background-color: #54577F;
 }
 
 .aboutMeButton{
@@ -40,14 +44,10 @@
     text-align: center;
     padding:8px;
     font-weight: bold;
-
+    color: #000000;
+    text-decoration: none;
     border-color: #000000;
     border-style:solid;
     border-width: 2px;
     border-radius: 0.5rem;
-
-}
-
-.aboutMeButton:hover{
-    background-color: #54577F;
 }
