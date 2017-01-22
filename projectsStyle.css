@@ -7,3 +7,20 @@
     margin:0;
     padding-top: 5px;
 }
+
+#projectsContent h2 {
+    margin:0;
+}
+
+#projectsContent h3 {
+    margin:0;
+    padding-top: 15px;
+}
+
+.personalProjects{
+    padding-top: 0px;
+}
+
+.classProjects{
+    padding-top: 30px;
+}
