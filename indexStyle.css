@@ -24,9 +24,30 @@
     font-weight: bold;
 }
 
-#resume{
+#aboutMeLinks{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#aboutMeLinks a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.aboutMeButton{
+    display: inline-block;
     font-size: 20px;
     text-align: center;
-    padding:10px;
+    padding:8px;
     font-weight: bold;
+
+    border-color: #000000;
+    border-style:solid;
+    border-width: 2px;
+    border-radius: 0.5rem;
+
+}
+
+.aboutMeButton:hover{
+    background-color: #54577F;
 }
