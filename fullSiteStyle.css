@@ -10,7 +10,7 @@ p{
 
 #navBar ul{
 	list-style-type: none;
-    /*position: fixed;*/
+    /*!*position: fixed;*!This seems to cause some sort of bug when window is resized, for now the nav bar will scroll with page.*/
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -38,6 +38,10 @@ p{
 
 #navBar li a:hover{
 	background-color: #54577F;
+}
+
+.aboutButtonClass{
+    float: right;
 }
 
 .activeNavBarItem{
