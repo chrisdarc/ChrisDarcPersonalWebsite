@@ -1,8 +1,13 @@
-.selfImageClass{
-	display: block;
-	margin: auto;
-	width: 50%;
-	height: auto;
+#selfImage{
+    display: block;
+    margin: auto;
+    height: auto;
+    text-align: center;
+}
+
+#selfImage a img{
+    width: 50%;
+    height:auto;
 }
 
 #columnContainer{
@@ -11,9 +16,37 @@
 }
 
 #blurb{
-	font-size: 18px;
     text-align: left;
     padding: 10px;
 }
 
 
+#jobSentence{
+    font-size: 20px;
+    text-align: center;
+    padding:10px;
+    font-weight: bold;
+}
+
+#aboutMeLinks{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.aboutMeButton:hover{
+    background-color: #54577F;
+}
+
+.aboutMeButton{
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    padding:8px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    border-color: #000000;
+    border-style:solid;
+    border-width: 2px;
+    border-radius: 0.5rem;
+}
