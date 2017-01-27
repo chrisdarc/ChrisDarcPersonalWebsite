@@ -36,6 +36,8 @@ p{
     padding: 14px 16px;
     text-decoration: none;
     margin: 0;
+    transition-property: background-color;
+    transition-duration: 0.8s;
 }
 
 #navBar li a:hover{

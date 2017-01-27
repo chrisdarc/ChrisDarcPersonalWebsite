@@ -49,4 +49,6 @@
     border-style:solid;
     border-width: 2px;
     border-radius: 0.5rem;
+    transition-property: background-color;
+    transition-duration: 0.8s;
 }
