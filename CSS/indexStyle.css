@@ -21,14 +21,8 @@
 }
 
 
-#jobSentence{
-    font-size: 20px;
-    text-align: center;
-    padding:10px;
-    font-weight: bold;
-}
-
 #aboutMeLinks{
+    margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
 }
